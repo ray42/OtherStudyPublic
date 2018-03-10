@@ -1,0 +1,43 @@
+#https://stackoverflow.com/questions/5711120/gitignore-without-binary-files
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+!*Makefile*
+!LISCENSE
+!GCCFLAGS
+
+### Above combination will ignore all files without extension ###
+
+# Ignore files with extension `.class` & `.sm`
+*.class
+*.sm
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.jar` in `bin` dir
+!*/bin/*.jar
+
+# Ignore all `library.jar` in `bin` dir
+*/bin/library.jar
+
+# Ignore a file with extension
+relative/path/to/dir/filename.extension
+
+# Ignore a file without extension
+relative/path/to/dir/anotherfile
+
+# ignore all object files
+*.o
+
+# ignore temp files
+*.swp
+*.swo
