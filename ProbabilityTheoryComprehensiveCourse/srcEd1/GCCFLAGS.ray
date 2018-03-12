@@ -1,0 +1,36 @@
+#CC="g++ -std=c++1y"
+#CC="g++ -std=c++14"
+
+# for C++17
+CC="clang++-5.0 -std=c++17 -pthread"
+
+
+#CFLAGS="-c -Wall -DDEBUG -g -W -Weffc++ -pedantic"
+CFLAGS="-c -g -DDEBUG -W -Wextra -Wall -Weffc++ -pedantic -pthread"
+#-pedantic \
+#-Weffc++ \
+#-Wall \
+#-Wextra \
+#-Wcast-align \
+#-Wcast-qual \
+#-Wctor-dtor-privacy \
+#-Wdisabled-optimization \
+#-Wformat=2 \
+#-Winit-self \
+#-Wlogical-op \
+#-Wmissing-declarations \
+#-Wmissing-include-dirs \
+#-Wnoexcept -Wold-style-cast \
+#-Woverloaded-virtual \
+#-Wredundant-decls \
+#-Wshadow -Wsign-conversion \
+#-Wsign-promo \
+#-Wstrict-null-sentinel \
+#-Wstrict-overflow=5 \
+#-Wswitch-default \
+#-Wundef"
+#-Werror
+#-Wno-unused"
+
+LDFLAGS=""
+
